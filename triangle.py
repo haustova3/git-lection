@@ -1,2 +1,3 @@
 def whatKindOfTriangle(x, y, z):
-    return -1
+    if x == y or y == z or z == x:
+        return 2
